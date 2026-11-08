@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>メール署名 11種</title>
+<title>メール署名 12種</title>
 <style>
   :root { --bg:#f4f4f1; --panel:#fff; --text:#1d1d1b; --muted:#6b6b66; --line:#e2e2dc; --accent:#1f4fd8; }
   @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg:#161615; --panel:#212120; --text:#ecece8; --muted:#a3a39c; --line:#34342f; --accent:#7a9cff; } }
@@ -33,7 +33,7 @@
 </head>
 <body>
 <main>
-  <h1>メール署名 11種</h1>
+  <h1>メール署名 12種</h1>
   <p class="lead">好きなデザインの「署名としてコピー」を押して、Gmailの署名欄に貼り付けてください。写真部分は動くGIF、残りは画像で、SNSアイコンはそれぞれリンクになっています。</p>
 
   <details open>
@@ -93,7 +93,8 @@ function signatureHtml(t) {
     + `<td rowspan="${n}" ${td}>${a(site, img(u(t.files.photo), W - PX, H, '中尾　公洋'))}</td></tr>`;
   t.icons.forEach(ic => { rows += `<tr><td ${td}>${a(L[ic.label] || ic.href, img(u(ic.file), LW, ic.h, ic.label))}</td></tr>`; });
   rows += `<tr><td ${td}>${a(site, img(u(t.files.bot), LW, H - ys[ys.length - 1], ''))}</td></tr>`;
-  return `<table cellpadding="0" cellspacing="0" border="0" role="presentation" style="border-collapse:collapse;width:${W}px;">${rows}</table>`;
+  const bg = u(t.files.bg);
+  return `<table cellpadding="0" cellspacing="0" border="0" role="presentation" background="${bg}" style="border-collapse:collapse;width:${W}px;background-image:url(${bg});background-repeat:no-repeat;background-position:0 0;">${rows}</table>`;
 }
 
 function render() {
