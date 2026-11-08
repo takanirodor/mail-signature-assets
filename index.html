@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>メール署名 10種</title>
+<title>メール署名 11種</title>
 <style>
   :root { --bg:#f4f4f1; --panel:#fff; --text:#1d1d1b; --muted:#6b6b66; --line:#e2e2dc; --accent:#1f4fd8; }
   @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg:#161615; --panel:#212120; --text:#ecece8; --muted:#a3a39c; --line:#34342f; --accent:#7a9cff; } }
@@ -33,7 +33,7 @@
 </head>
 <body>
 <main>
-  <h1>メール署名 10種</h1>
+  <h1>メール署名 11種</h1>
   <p class="lead">好きなデザインの「署名としてコピー」を押して、Gmailの署名欄に貼り付けてください。写真部分は動くGIF、残りは画像で、SNSアイコンはそれぞれリンクになっています。</p>
 
   <details open>
@@ -82,20 +82,18 @@ function links() {
 
 // build_signatures.py の signature_html と同じ構造
 function signatureHtml(t) {
-  const L = links(), [W, H] = DATA.card, PW = DATA.pw;
+  const L = links(), [W, H] = DATA.card, LW = DATA.lw, PX = DATA.px;
   const u = f => `${base}sig/${t.key}/${f}`;
   const img = (src, w, h, alt) => `<img src="${src}" width="${w}" height="${h}" alt="${alt}" style="display:block;width:${w}px;height:${h}px;border:0;outline:none;text-decoration:none;">`;
   const a = (href, inner) => `<a href="${esc(href)}" target="_blank" style="text-decoration:none;">${inner}</a>`;
-  const td = 'style="padding:0;margin:0;font-size:0;line-height:0;"';
-  const { xs, iy0, iy1 } = t, rw = W - PW, site = L.website;
-  const sns = t.icons.map(ic => `<td ${td}>${a(L[ic.label] || ic.href, img(u(ic.file), ic.w, iy1 - iy0, ic.label))}</td>`).join('');
-  return `<table cellpadding="0" cellspacing="0" border="0" role="presentation" style="border-collapse:collapse;width:${W}px;">`
-    + `<tr><td rowspan="3" ${td}>${a(site, img(base + 'sig/portrait.gif', PW, H, '中尾　公洋'))}</td>`
-    + `<td colspan="8" ${td}>${a(site, img(u(t.files.a), rw, iy0, '中尾　公洋 NAKAO TAKAHIRO Founder &amp; CEO | NEXT STANDARDS'))}</td></tr>`
-    + `<tr><td ${td}>${a(site, img(u(t.files.bl), xs[0] - PW, iy1 - iy0, ''))}</td>${sns}`
-    + `<td ${td}>${a(site, img(u(t.files.br), W - xs[xs.length - 1], iy1 - iy0, ''))}</td></tr>`
-    + `<tr><td colspan="8" ${td}>${a(site, img(u(t.files.c), rw, H - iy1, 'NEXT STANDARDS'))}</td></tr>`
-    + `</table>`;
+  const td = 'style="padding:0;margin:0;font-size:0;line-height:0;vertical-align:top;"';
+  const ys = t.ys, site = L.website, n = t.icons.length + 2;
+  let rows = `<tr><td ${td}>${a(site, img(u(t.files.top), LW, ys[0], ''))}</td>`
+    + `<td rowspan="${n}" ${td}>${a(site, img(u(t.files.info), PX - LW, H, '中尾　公洋 NAKAO TAKAHIRO / Founder &amp; CEO | NEXT STANDARDS / contact@next-standards.com / next-standards.com'))}</td>`
+    + `<td rowspan="${n}" ${td}>${a(site, img(u(t.files.photo), W - PX, H, '中尾　公洋'))}</td></tr>`;
+  t.icons.forEach(ic => { rows += `<tr><td ${td}>${a(L[ic.label] || ic.href, img(u(ic.file), LW, ic.h, ic.label))}</td></tr>`; });
+  rows += `<tr><td ${td}>${a(site, img(u(t.files.bot), LW, H - ys[ys.length - 1], ''))}</td></tr>`;
+  return `<table cellpadding="0" cellspacing="0" border="0" role="presentation" style="border-collapse:collapse;width:${W}px;">${rows}</table>`;
 }
 
 function render() {

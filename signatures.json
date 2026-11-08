@@ -2,64 +2,63 @@
  "base": "https://takanirodor.github.io/mail-signature-assets/",
  "card": [
   640,
-  180
+  200
  ],
- "pw": 170,
+ "lw": 76,
+ "px": 410,
  "templates": [
   {
    "key": "T01-Nexus",
    "name": "01 NEXUS",
-   "iy0": 122,
-   "iy1": 154,
-   "xs": [
-    438,
-    470,
-    502,
-    534,
-    566,
-    598,
-    630
+   "ys": [
+    22,
+    50,
+    75,
+    100,
+    125,
+    150,
+    178
    ],
    "files": {
-    "a": "a.png",
-    "bl": "bl.jpg",
-    "br": "br.jpg",
-    "c": "c.png"
+    "top": "top.png",
+    "bot": "bot.png",
+    "info": "info.jpg",
+    "photo": "photo.gif"
    },
    "icons": [
     {
      "file": "sns0.jpg",
-     "w": 32,
+     "h": 28,
      "label": "LinkedIn",
      "href": "https://www.linkedin.com/"
     },
     {
      "file": "sns1.jpg",
-     "w": 32,
+     "h": 25,
      "label": "X",
      "href": "https://x.com/"
     },
     {
      "file": "sns2.jpg",
-     "w": 32,
+     "h": 25,
      "label": "Facebook",
      "href": "https://www.facebook.com/"
     },
     {
      "file": "sns3.jpg",
-     "w": 32,
+     "h": 25,
      "label": "Instagram",
      "href": "https://www.instagram.com/"
     },
     {
      "file": "sns4.jpg",
-     "w": 32,
+     "h": 25,
      "label": "YouTube",
      "href": "https://www.youtube.com/"
     },
     {
      "file": "sns5.jpg",
-     "w": 32,
+     "h": 28,
      "label": "LINE",
      "href": "https://line.me/"
     }
@@ -68,57 +67,55 @@
   {
    "key": "T02-Hero",
    "name": "02 HERO",
-   "iy0": 122,
-   "iy1": 154,
-   "xs": [
-    438,
-    470,
-    502,
-    534,
-    566,
-    598,
-    630
+   "ys": [
+    22,
+    50,
+    75,
+    100,
+    125,
+    150,
+    178
    ],
    "files": {
-    "a": "a.png",
-    "bl": "bl.jpg",
-    "br": "br.jpg",
-    "c": "c.png"
+    "top": "top.png",
+    "bot": "bot.png",
+    "info": "info.jpg",
+    "photo": "photo.gif"
    },
    "icons": [
     {
      "file": "sns0.jpg",
-     "w": 32,
+     "h": 28,
      "label": "LinkedIn",
      "href": "https://www.linkedin.com/"
     },
     {
      "file": "sns1.jpg",
-     "w": 32,
+     "h": 25,
      "label": "X",
      "href": "https://x.com/"
     },
     {
      "file": "sns2.jpg",
-     "w": 32,
+     "h": 25,
      "label": "Facebook",
      "href": "https://www.facebook.com/"
     },
     {
      "file": "sns3.jpg",
-     "w": 32,
+     "h": 25,
      "label": "Instagram",
      "href": "https://www.instagram.com/"
     },
     {
      "file": "sns4.jpg",
-     "w": 32,
+     "h": 25,
      "label": "YouTube",
      "href": "https://www.youtube.com/"
     },
     {
      "file": "sns5.jpg",
-     "w": 32,
+     "h": 28,
      "label": "LINE",
      "href": "https://line.me/"
     }
@@ -127,57 +124,55 @@
   {
    "key": "T03-Wonder",
    "name": "03 WONDER",
-   "iy0": 128,
-   "iy1": 160,
-   "xs": [
-    436,
-    468,
-    500,
-    532,
-    564,
-    596,
-    628
+   "ys": [
+    22,
+    50,
+    75,
+    100,
+    125,
+    150,
+    178
    ],
    "files": {
-    "a": "a.png",
-    "bl": "bl.jpg",
-    "br": "br.jpg",
-    "c": "c.png"
+    "top": "top.png",
+    "bot": "bot.png",
+    "info": "info.jpg",
+    "photo": "photo.gif"
    },
    "icons": [
     {
      "file": "sns0.jpg",
-     "w": 32,
+     "h": 28,
      "label": "LinkedIn",
      "href": "https://www.linkedin.com/"
     },
     {
      "file": "sns1.jpg",
-     "w": 32,
+     "h": 25,
      "label": "X",
      "href": "https://x.com/"
     },
     {
      "file": "sns2.jpg",
-     "w": 32,
+     "h": 25,
      "label": "Facebook",
      "href": "https://www.facebook.com/"
     },
     {
      "file": "sns3.jpg",
-     "w": 32,
+     "h": 25,
      "label": "Instagram",
      "href": "https://www.instagram.com/"
     },
     {
      "file": "sns4.jpg",
-     "w": 32,
+     "h": 25,
      "label": "YouTube",
      "href": "https://www.youtube.com/"
     },
     {
      "file": "sns5.jpg",
-     "w": 32,
+     "h": 28,
      "label": "LINE",
      "href": "https://line.me/"
     }
@@ -186,57 +181,55 @@
   {
    "key": "T04-Liquid",
    "name": "04 LIQUID",
-   "iy0": 129,
-   "iy1": 161,
-   "xs": [
-    435,
-    467,
-    499,
-    531,
-    563,
-    595,
-    627
+   "ys": [
+    23,
+    51,
+    76,
+    101,
+    126,
+    151,
+    179
    ],
    "files": {
-    "a": "a.png",
-    "bl": "bl.jpg",
-    "br": "br.jpg",
-    "c": "c.png"
+    "top": "top.png",
+    "bot": "bot.png",
+    "info": "info.jpg",
+    "photo": "photo.gif"
    },
    "icons": [
     {
      "file": "sns0.jpg",
-     "w": 32,
+     "h": 28,
      "label": "LinkedIn",
      "href": "https://www.linkedin.com/"
     },
     {
      "file": "sns1.jpg",
-     "w": 32,
+     "h": 25,
      "label": "X",
      "href": "https://x.com/"
     },
     {
      "file": "sns2.jpg",
-     "w": 32,
+     "h": 25,
      "label": "Facebook",
      "href": "https://www.facebook.com/"
     },
     {
      "file": "sns3.jpg",
-     "w": 32,
+     "h": 25,
      "label": "Instagram",
      "href": "https://www.instagram.com/"
     },
     {
      "file": "sns4.jpg",
-     "w": 32,
+     "h": 25,
      "label": "YouTube",
      "href": "https://www.youtube.com/"
     },
     {
      "file": "sns5.jpg",
-     "w": 32,
+     "h": 28,
      "label": "LINE",
      "href": "https://line.me/"
     }
@@ -245,57 +238,55 @@
   {
    "key": "T05-Noir",
    "name": "05 NOIR",
-   "iy0": 122,
-   "iy1": 154,
-   "xs": [
-    438,
-    470,
-    502,
-    534,
-    566,
-    598,
-    630
+   "ys": [
+    22,
+    50,
+    75,
+    100,
+    125,
+    150,
+    178
    ],
    "files": {
-    "a": "a.png",
-    "bl": "bl.jpg",
-    "br": "br.jpg",
-    "c": "c.png"
+    "top": "top.png",
+    "bot": "bot.png",
+    "info": "info.jpg",
+    "photo": "photo.gif"
    },
    "icons": [
     {
      "file": "sns0.jpg",
-     "w": 32,
+     "h": 28,
      "label": "LinkedIn",
      "href": "https://www.linkedin.com/"
     },
     {
      "file": "sns1.jpg",
-     "w": 32,
+     "h": 25,
      "label": "X",
      "href": "https://x.com/"
     },
     {
      "file": "sns2.jpg",
-     "w": 32,
+     "h": 25,
      "label": "Facebook",
      "href": "https://www.facebook.com/"
     },
     {
      "file": "sns3.jpg",
-     "w": 32,
+     "h": 25,
      "label": "Instagram",
      "href": "https://www.instagram.com/"
     },
     {
      "file": "sns4.jpg",
-     "w": 32,
+     "h": 25,
      "label": "YouTube",
      "href": "https://www.youtube.com/"
     },
     {
      "file": "sns5.jpg",
-     "w": 32,
+     "h": 28,
      "label": "LINE",
      "href": "https://line.me/"
     }
@@ -304,57 +295,55 @@
   {
    "key": "T06-Cyber",
    "name": "06 CYBER",
-   "iy0": 122,
-   "iy1": 154,
-   "xs": [
-    438,
-    470,
-    502,
-    534,
-    566,
-    598,
-    630
+   "ys": [
+    22,
+    50,
+    75,
+    100,
+    125,
+    150,
+    178
    ],
    "files": {
-    "a": "a.png",
-    "bl": "bl.jpg",
-    "br": "br.jpg",
-    "c": "c.png"
+    "top": "top.png",
+    "bot": "bot.png",
+    "info": "info.jpg",
+    "photo": "photo.gif"
    },
    "icons": [
     {
      "file": "sns0.jpg",
-     "w": 32,
+     "h": 28,
      "label": "LinkedIn",
      "href": "https://www.linkedin.com/"
     },
     {
      "file": "sns1.jpg",
-     "w": 32,
+     "h": 25,
      "label": "X",
      "href": "https://x.com/"
     },
     {
      "file": "sns2.jpg",
-     "w": 32,
+     "h": 25,
      "label": "Facebook",
      "href": "https://www.facebook.com/"
     },
     {
      "file": "sns3.jpg",
-     "w": 32,
+     "h": 25,
      "label": "Instagram",
      "href": "https://www.instagram.com/"
     },
     {
      "file": "sns4.jpg",
-     "w": 32,
+     "h": 25,
      "label": "YouTube",
      "href": "https://www.youtube.com/"
     },
     {
      "file": "sns5.jpg",
-     "w": 32,
+     "h": 28,
      "label": "LINE",
      "href": "https://line.me/"
     }
@@ -363,57 +352,55 @@
   {
    "key": "T08-Orbit",
    "name": "07 ORBIT",
-   "iy0": 128,
-   "iy1": 160,
-   "xs": [
-    436,
-    468,
-    500,
-    532,
-    564,
-    596,
-    628
+   "ys": [
+    22,
+    50,
+    75,
+    100,
+    125,
+    150,
+    178
    ],
    "files": {
-    "a": "a.png",
-    "bl": "bl.jpg",
-    "br": "br.jpg",
-    "c": "c.png"
+    "top": "top.png",
+    "bot": "bot.png",
+    "info": "info.jpg",
+    "photo": "photo.gif"
    },
    "icons": [
     {
      "file": "sns0.jpg",
-     "w": 32,
+     "h": 28,
      "label": "LinkedIn",
      "href": "https://www.linkedin.com/"
     },
     {
      "file": "sns1.jpg",
-     "w": 32,
+     "h": 25,
      "label": "X",
      "href": "https://x.com/"
     },
     {
      "file": "sns2.jpg",
-     "w": 32,
+     "h": 25,
      "label": "Facebook",
      "href": "https://www.facebook.com/"
     },
     {
      "file": "sns3.jpg",
-     "w": 32,
+     "h": 25,
      "label": "Instagram",
      "href": "https://www.instagram.com/"
     },
     {
      "file": "sns4.jpg",
-     "w": 32,
+     "h": 25,
      "label": "YouTube",
      "href": "https://www.youtube.com/"
     },
     {
      "file": "sns5.jpg",
-     "w": 32,
+     "h": 28,
      "label": "LINE",
      "href": "https://line.me/"
     }
@@ -422,57 +409,55 @@
   {
    "key": "T09-Zen",
    "name": "08 ZEN",
-   "iy0": 128,
-   "iy1": 160,
-   "xs": [
-    432,
-    464,
-    496,
-    528,
-    560,
-    592,
-    624
+   "ys": [
+    22,
+    50,
+    75,
+    100,
+    125,
+    150,
+    178
    ],
    "files": {
-    "a": "a.png",
-    "bl": "bl.jpg",
-    "br": "br.jpg",
-    "c": "c.png"
+    "top": "top.png",
+    "bot": "bot.png",
+    "info": "info.jpg",
+    "photo": "photo.gif"
    },
    "icons": [
     {
      "file": "sns0.jpg",
-     "w": 32,
+     "h": 28,
      "label": "LinkedIn",
      "href": "https://www.linkedin.com/"
     },
     {
      "file": "sns1.jpg",
-     "w": 32,
+     "h": 25,
      "label": "X",
      "href": "https://x.com/"
     },
     {
      "file": "sns2.jpg",
-     "w": 32,
+     "h": 25,
      "label": "Facebook",
      "href": "https://www.facebook.com/"
     },
     {
      "file": "sns3.jpg",
-     "w": 32,
+     "h": 25,
      "label": "Instagram",
      "href": "https://www.instagram.com/"
     },
     {
      "file": "sns4.jpg",
-     "w": 32,
+     "h": 25,
      "label": "YouTube",
      "href": "https://www.youtube.com/"
     },
     {
      "file": "sns5.jpg",
-     "w": 32,
+     "h": 28,
      "label": "LINE",
      "href": "https://line.me/"
     }
@@ -481,57 +466,55 @@
   {
    "key": "T10-Pop",
    "name": "09 POP",
-   "iy0": 122,
-   "iy1": 154,
-   "xs": [
-    438,
-    470,
-    502,
-    534,
-    566,
-    598,
-    630
+   "ys": [
+    22,
+    50,
+    75,
+    100,
+    125,
+    150,
+    178
    ],
    "files": {
-    "a": "a.png",
-    "bl": "bl.jpg",
-    "br": "br.jpg",
-    "c": "c.png"
+    "top": "top.png",
+    "bot": "bot.png",
+    "info": "info.jpg",
+    "photo": "photo.gif"
    },
    "icons": [
     {
      "file": "sns0.jpg",
-     "w": 32,
+     "h": 28,
      "label": "LinkedIn",
      "href": "https://www.linkedin.com/"
     },
     {
      "file": "sns1.jpg",
-     "w": 32,
+     "h": 25,
      "label": "X",
      "href": "https://x.com/"
     },
     {
      "file": "sns2.jpg",
-     "w": 32,
+     "h": 25,
      "label": "Facebook",
      "href": "https://www.facebook.com/"
     },
     {
      "file": "sns3.jpg",
-     "w": 32,
+     "h": 25,
      "label": "Instagram",
      "href": "https://www.instagram.com/"
     },
     {
      "file": "sns4.jpg",
-     "w": 32,
+     "h": 25,
      "label": "YouTube",
      "href": "https://www.youtube.com/"
     },
     {
      "file": "sns5.jpg",
-     "w": 32,
+     "h": 28,
      "label": "LINE",
      "href": "https://line.me/"
     }
@@ -540,57 +523,112 @@
   {
    "key": "T11-Cover",
    "name": "10 COVER",
-   "iy0": 130,
-   "iy1": 162,
-   "xs": [
-    436,
-    468,
-    500,
-    532,
-    564,
-    596,
-    628
+   "ys": [
+    22,
+    50,
+    75,
+    100,
+    125,
+    150,
+    178
    ],
    "files": {
-    "a": "a.png",
-    "bl": "bl.jpg",
-    "br": "br.jpg",
-    "c": "c.png"
+    "top": "top.png",
+    "bot": "bot.png",
+    "info": "info.jpg",
+    "photo": "photo.gif"
    },
    "icons": [
     {
      "file": "sns0.jpg",
-     "w": 32,
+     "h": 28,
      "label": "LinkedIn",
      "href": "https://www.linkedin.com/"
     },
     {
      "file": "sns1.jpg",
-     "w": 32,
+     "h": 25,
      "label": "X",
      "href": "https://x.com/"
     },
     {
      "file": "sns2.jpg",
-     "w": 32,
+     "h": 25,
      "label": "Facebook",
      "href": "https://www.facebook.com/"
     },
     {
      "file": "sns3.jpg",
-     "w": 32,
+     "h": 25,
      "label": "Instagram",
      "href": "https://www.instagram.com/"
     },
     {
      "file": "sns4.jpg",
-     "w": 32,
+     "h": 25,
      "label": "YouTube",
      "href": "https://www.youtube.com/"
     },
     {
      "file": "sns5.jpg",
-     "w": 32,
+     "h": 28,
+     "label": "LINE",
+     "href": "https://line.me/"
+    }
+   ]
+  },
+  {
+   "key": "T12-White",
+   "name": "11 WHITE",
+   "ys": [
+    23,
+    51,
+    76,
+    101,
+    126,
+    151,
+    179
+   ],
+   "files": {
+    "top": "top.png",
+    "bot": "bot.png",
+    "info": "info.jpg",
+    "photo": "photo.gif"
+   },
+   "icons": [
+    {
+     "file": "sns0.jpg",
+     "h": 28,
+     "label": "LinkedIn",
+     "href": "https://www.linkedin.com/"
+    },
+    {
+     "file": "sns1.jpg",
+     "h": 25,
+     "label": "X",
+     "href": "https://x.com/"
+    },
+    {
+     "file": "sns2.jpg",
+     "h": 25,
+     "label": "Facebook",
+     "href": "https://www.facebook.com/"
+    },
+    {
+     "file": "sns3.jpg",
+     "h": 25,
+     "label": "Instagram",
+     "href": "https://www.instagram.com/"
+    },
+    {
+     "file": "sns4.jpg",
+     "h": 25,
+     "label": "YouTube",
+     "href": "https://www.youtube.com/"
+    },
+    {
+     "file": "sns5.jpg",
+     "h": 28,
      "label": "LINE",
      "href": "https://line.me/"
     }
