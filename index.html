@@ -29,12 +29,27 @@
   .note { color:var(--muted); font-size:12px; line-height:1.7; }
   .toast { position:fixed; left:50%; bottom:20px; transform:translateX(-50%); background:#222; color:#fff; padding:10px 16px; border-radius:8px; opacity:0; transition:.2s; pointer-events:none; }
   .toast.show { opacity:1; }
+  .alert { display:flex; gap:12px; align-items:flex-start; background: color-mix(in srgb, #f5a524 14%, var(--panel)); border:1px solid color-mix(in srgb, #f5a524 55%, var(--line)); border-radius:12px; padding:14px 16px; margin-bottom:20px; line-height:1.7; }
+  .alert svg { flex-shrink:0; margin-top:2px; color:#c27c0e; }
+  .alert strong { display:block; margin-bottom:2px; }
+  .alert ul { margin:4px 0 0; padding-left:18px; }
 </style>
 </head>
 <body>
 <main>
   <h1>メール署名 12種</h1>
   <p class="lead">好きなデザインの「署名としてコピー」を押して、Gmailの署名欄に貼り付けてください。写真部分は動くGIF、残りは画像で、SNSアイコンはそれぞれリンクになっています。</p>
+
+  <div class="alert" role="note">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l9.5 17h-19z"></path><path d="M12 10v4M12 17.5v.01"></path></svg>
+    <div>
+      <strong>署名の登録は、必ずPCのブラウザ版Gmailから行ってください</strong>
+      <ul>
+        <li>スマホのGmailアプリの「モバイル署名」は文字しか保存できず、画像が「インライン画像」という文字に置き換わります。</li>
+        <li>PCで登録したあと、スマホアプリの「署名設定」で<b>モバイル署名をオフ</b>にしてください。オンのままだと、スマホから送るメールは文字だけの署名になります。</li>
+      </ul>
+    </div>
+  </div>
 
   <details open>
     <summary>リンク先の設定（最初に一度だけ）</summary>
@@ -43,14 +58,17 @@
   </details>
 
   <details>
-    <summary>Gmailへの貼り付け方</summary>
+    <summary>Gmailへの貼り付け方（PCで行います）</summary>
     <ol>
-      <li>Gmailの右上の歯車 →「すべての設定を表示」</li>
+      <li>PCのブラウザでこのページを開き、使うデザインの「署名としてコピー」を押す</li>
+      <li>PCのGmailの右上の歯車 →「すべての設定を表示」</li>
       <li>「全般」タブの「署名」→「新規作成」</li>
       <li>署名欄をクリックして、貼り付け（⌘V / Ctrl+V）</li>
+      <li>「署名のデフォルト」で、新規メールと返信／転送の両方にその署名を選ぶ</li>
       <li>ページ下の「変更を保存」</li>
+      <li>スマホのGmailアプリ →「設定」→ アカウント →「署名設定」で、モバイル署名をオフにする</li>
     </ol>
-    <p class="note">貼り付け直後は画像が表示されるまで数秒かかることがあります。スマホのGmailアプリには、PC版で設定した署名がそのまま使われます。</p>
+    <p class="note">貼り付け直後は画像が表示されるまで数秒かかることがあります。スマホアプリでは、作成画面には署名が表示されず、送信時に付きます。最初の一度は、スマホから自分宛てに送って確認してください。</p>
   </details>
 
   <div id="cards"></div>
