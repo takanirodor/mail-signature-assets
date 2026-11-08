@@ -140,7 +140,7 @@ document.addEventListener('click', e => {
   if (b.dataset.src) copySrc(b.dataset.src);
 });
 
-fetch('signatures.json').then(r => r.json()).then(d => { DATA = d; render(); });
+fetch('signatures.json', {cache: 'no-store'}).then(r => r.json()).then(d => { DATA = d; render(); });
 </script>
 </body>
 </html>
