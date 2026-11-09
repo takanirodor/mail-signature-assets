@@ -112,7 +112,9 @@ function signatureHtml(t) {
   t.icons.forEach(ic => { rows += `<tr><td ${td}>${a(L[ic.label] || ic.href, img(u(ic.file), LW, ic.h, ic.label))}</td></tr>`; });
   rows += `<tr><td ${td}>${a(site, img(u(t.files.bot), LW, H - ys[ys.length - 1], ''))}</td></tr>`;
   const bg = u(t.files.bg);
-  return `<table cellpadding="0" cellspacing="0" border="0" role="presentation" background="${bg}" style="border-collapse:collapse;width:${W}px;background-image:url(${bg});background-repeat:no-repeat;background-position:0 0;">${rows}</table>`;
+  return `<table cellpadding="0" cellspacing="0" border="0" role="presentation" background="${bg}" style="border-collapse:collapse;width:${W}px;background-image:url(${bg});background-repeat:no-repeat;background-position:0 0;">${rows}</table>`
+    + `<table cellpadding="0" cellspacing="0" border="0" role="presentation" style="border-collapse:collapse;width:${W}px;"><tr><td style="padding:8px 0 0;margin:0;font-size:0;line-height:0;">`
+    + `<a href="${DATA.base}" target="_blank" style="text-decoration:none;"><img src="${base}sig/badge.png" width="${W}" height="36" alt="Sent with Signe" style="display:block;width:${W}px;height:36px;border:0;outline:none;text-decoration:none;"></a></td></tr></table>`;
 }
 
 function render() {
